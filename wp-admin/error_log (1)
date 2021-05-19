@@ -1,0 +1,81 @@
+[30-Apr-2021 08:40:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key' at line 1 for query SELECT meta_key FROM wpkv_postmeta WHERE post_id =  AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key made by require_once('wp-admin/admin-header.php'), WP_Screen->render_screen_meta, WP_Screen->show_screen_options, get_column_headers, apply_filters('manage_edit-wpcf7s_columns'), WP_Hook->apply_filters, WP_Posts_List_Table->get_columns, apply_filters('manage_wpcf7s_posts_columns'), WP_Hook->apply_filters, WPCF7SAdmin->set_columns, WPCF7SAdmin->get_available_columns
+[30-Apr-2021 08:40:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key' at line 1 for query SELECT meta_key FROM wpkv_postmeta WHERE post_id =  AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key made by WP_List_Table->display, WP_List_Table->print_column_headers, WP_List_Table->get_column_info, WP_List_Table->get_primary_column_name, WP_List_Table->get_default_primary_column_name, WP_Posts_List_Table->get_columns, apply_filters('manage_wpcf7s_posts_columns'), WP_Hook->apply_filters, WPCF7SAdmin->set_columns, WPCF7SAdmin->get_available_columns
+[30-Apr-2021 08:40:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key' at line 1 for query SELECT meta_key FROM wpkv_postmeta WHERE post_id =  AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key made by WP_List_Table->display, WP_List_Table->display_rows_or_placeholder, WP_List_Table->get_column_count, WP_List_Table->get_column_info, WP_List_Table->get_primary_column_name, WP_List_Table->get_default_primary_column_name, WP_Posts_List_Table->get_columns, apply_filters('manage_wpcf7s_posts_columns'), WP_Hook->apply_filters, WPCF7SAdmin->set_columns, WPCF7SAdmin->get_available_columns
+[30-Apr-2021 08:40:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key' at line 1 for query SELECT meta_key FROM wpkv_postmeta WHERE post_id =  AND meta_key LIKE '%wpcf7s_%' GROUP BY meta_key made by WP_List_Table->display, WP_List_Table->print_column_headers, WP_List_Table->get_column_info, WP_List_Table->get_primary_column_name, WP_List_Table->get_default_primary_column_name, WP_Posts_List_Table->get_columns, apply_filters('manage_wpcf7s_posts_columns'), WP_Hook->apply_filters, WPCF7SAdmin->set_columns, WPCF7SAdmin->get_available_columns
+[06-May-2021 04:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_posted_data() on null in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php:504
+Stack trace:
+#0 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): cf7msm_set_step(Object(WPCF7_Validation), Array)
+#1 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(212): WP_Hook->apply_filters(Object(WPCF7_Validation), Array)
+#2 /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/cf7-multi-step/inc/frontend/validation.php(40): apply_filters('wpcf7_validate', Object(WPCF7_Validation), Array)
+#3 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): NjtCF7MLSValidation->cf7mls_validation_callback('')
+#4 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /home/fekuhaar/mainpractice.fekufaki in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php on line 504
+[06-May-2021 04:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_posted_data() on null in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php:504
+Stack trace:
+#0 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): cf7msm_set_step(Object(WPCF7_Validation), Array)
+#1 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(212): WP_Hook->apply_filters(Object(WPCF7_Validation), Array)
+#2 /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/cf7-multi-step/inc/frontend/validation.php(40): apply_filters('wpcf7_validate', Object(WPCF7_Validation), Array)
+#3 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): NjtCF7MLSValidation->cf7mls_validation_callback('')
+#4 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /home/fekuhaar/mainpractice.fekufaki in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php on line 504
+[06-May-2021 04:13:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_posted_data() on null in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php:504
+Stack trace:
+#0 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): cf7msm_set_step(Object(WPCF7_Validation), Array)
+#1 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(212): WP_Hook->apply_filters(Object(WPCF7_Validation), Array)
+#2 /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/cf7-multi-step/inc/frontend/validation.php(40): apply_filters('wpcf7_validate', Object(WPCF7_Validation), Array)
+#3 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): NjtCF7MLSValidation->cf7mls_validation_callback('')
+#4 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /home/fekuhaar/mainpractice.fekufaki in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php on line 504
+[06-May-2021 04:14:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_posted_data() on null in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php:504
+Stack trace:
+#0 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): cf7msm_set_step(Object(WPCF7_Validation), Array)
+#1 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(212): WP_Hook->apply_filters(Object(WPCF7_Validation), Array)
+#2 /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/cf7-multi-step/inc/frontend/validation.php(40): apply_filters('wpcf7_validate', Object(WPCF7_Validation), Array)
+#3 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(292): NjtCF7MLSValidation->cf7mls_validation_callback('')
+#4 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 /home/fekuhaar/mainpractice.fekufakir.club/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#6 /home/fekuhaar/mainpractice.fekufaki in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/contact-form-7-multi-step-module/cf7msm.php on line 504
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'google-recaptcha' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'google-maps' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'openstreetmaps' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'vimeo' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'youtube' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'videopress' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'dailymotion' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'soundcloud' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'paypal' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'spotify' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'hotjar' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'addthis' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'addtoany' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'sharethis' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'livechat' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'hubspot' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'calendly' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 81
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'facebook' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'twitter' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'linkedin' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'whatsapp' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'instagram' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'disqus' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 02:26:29 UTC] PHP Warning:  Illegal string offset 'pinterest' in /home/fekuhaar/mainpractice.fekufakir.club/wp-content/plugins/complianz-gdpr/integrations/integrations-menu.php on line 98
+[07-May-2021 08:30:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 08:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 08:39:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 08:44:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 08:49:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 08:54:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 08:59:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 09:10:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:01:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:04:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:05:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:05:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:06:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:09:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:10:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
+[07-May-2021 10:11:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fekuhaar/mainpractice.fekufakir.club/wp-admin/includes/plugin.php on line 1772
